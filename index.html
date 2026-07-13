@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversor de moedas</title>
+    <link rel="stylesheet" href="vs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="variaveis.js" defer></script>
+</head>
+
+<body>
+    <img class="logo1" src="./assets/logo.gif" alt="logodevclub">
+
+    <main>
+
+        <label>
+            converter <b> de</b>
+
+            <select>
+                <option>R$ real brasileiro</option>
+
+
+
+            </select>
+
+        </label>
+
+        <label>
+            converter <b>para</b>
+
+            <select class="currency-select">
+                <option value="euro">€ euro</option>
+                <option value="dolar">US$ dólar americano</option>
+                <option class="libra-esterlina" value="libra">£ libra esterlina </option>
+                <option value="iene">¥ iene </option>
+
+
+            </select>
+
+        </label>
+
+        <label>valor
+            <input class="input-currency" placeholder="R$ 10.000,00">
+        </label>
+        <button class="convert-button">converter</button>
+        <section>
+            <div class="currency-box">
+                <img src="./assets/real.png" alt="logo-moeda-a-converter">
+                <p class="currency">real brasileiro</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
+            </div>
+            <img class="arrow" src="./assets/arrow.png" alt="arrow">
+            <div class="currency-box">
+                <img class="currency-img" src="./assets/dolar.png" alt="logo-moeda-convertida">
+                <p class="currency" id="currency-name"> dólar americano</p>
+                <p class="value">US$ 0,00</p>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
