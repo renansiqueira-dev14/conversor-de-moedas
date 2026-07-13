@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: "Inter", sans-serif;
     margin: 0;
@@ -104,4 +105,13 @@ section {
    color: #555555;
    font-size: 20px;
    font-weight: 700;
+=======
+h1{
+    color: red;
+    line-height: 14px;
+}
+p{
+    color: blue;
+    line-height: 14px;
+>>>>>>> ff92d1d76bb4fdd3a25ff6ba4e0349e0fa10c927
 }
